@@ -1,0 +1,12 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 22px;
+}
+
+.content h2::before {
+    content: "## ";
+}
