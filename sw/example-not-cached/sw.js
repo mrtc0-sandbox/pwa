@@ -1,12 +1,12 @@
 const CACHE_NAME = 'localhost-cache-v2'
 const urlsToCache = [
-  '/pwa/sw/example-frame-not-cached/index.html',
-  '/pwa/sw/example-frame-not-cached/styles/main.css',
-  '/pwa/sw/example-frame-not-cached/images/red.jpg',
-  '/pwa/sw/example-frame-not-cached/images/blue.jpg',
-  '/pwa/sw/example-frame-not-cached/images/green.jpg',
-  '/pwa/sw/example-frame-not-cached/images/yellow.jpg',
-  '/pwa/sw/example-frame-not-cached/images/black.jpg',
+  '/pwa/sw/example-not-cached/index.html',
+  '/pwa/sw/example-not-cached/styles/main.css',
+  '/pwa/sw/example-not-cached/images/red.jpg',
+  '/pwa/sw/example-not-cached/images/blue.jpg',
+  '/pwa/sw/example-not-cached/images/green.jpg',
+  '/pwa/sw/example-not-cached/images/yellow.jpg',
+  '/pwa/sw/example-not-cached/images/black.jpg',
 ]
 
 self.addEventListener('install', event => {
