@@ -1,13 +1,13 @@
 const CACHE_NAME = 'localhost-cache-v1'
 const urlsToCache = [
-  '/index.html',
-  '/about.html',
-  '/styles/main.css',
-  '/images/red.jpg',
-  '/images/blue.jpg',
-  '/images/green.jpg',
-  '/images/yellow.jpg',
-  '/images/black.jpg',
+  '/pwa/sw/example/index.html',
+  '/pwa/sw/example/about.html',
+  '/pwa/sw/example/styles/main.css',
+  '/pwa/sw/example/images/red.jpg',
+  '/pwa/sw/example/images/blue.jpg',
+  '/pwa/sw/example/images/green.jpg',
+  '/pwa/sw/example/images/yellow.jpg',
+  '/pwa/sw/example/images/black.jpg',
 ]
 
 self.addEventListener('install', event => {
